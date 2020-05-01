@@ -11,6 +11,14 @@ public class FirstLesson {
         int c = 130; // overflow
         byte d = (byte) c;
         System.out.println(d);
+
+        int ab = 10;
+        System.out.println(ab++);
+        System.out.println(++ab);
+        System.out.println(++ab);
+        System.out.println(ab++);
+        System.out.println(ab++);
+
     }
     public void method() {
         int n = 10; // local variable
